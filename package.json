@@ -19,6 +19,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "lint:css": "stylelint src",
+    "lint:css:fix": "npm run lint:css -- --fix",
     "prepare": "husky install"
   },
   "browserslist": {
